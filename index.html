@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Nguyen - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+                
+            </a>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#certificates">Certificates</a>
+            </nav>
+        <button id="theme-toggle" class="btn">Toggle Dark/Light Mode</button>
+</header>
+
+        <main>
+            <section class="hero">
+                <img src="Professional_Pic.JPG" alt="Kim Nguyen" class="profile-pic">
+                <h1>Kim Nguyen</h1>
+                <p>Analyst well versed in Python, SQL, and Power BI</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-secondary">
+                        <a href="mailto:nguyengiakhiem@gmail.com" style="color: inherit; text-decoration: none;">
+                            Contact Me
+                        </a>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <a href="Kim_Nguyen_CV.pdf" target="_blank" style="color: inherit; text-decoration: none;">
+                            View CV
+                        </a>
+                    </button>
+                    
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/kim-khiem-nguyen-a3368b184/" target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Kayng2901" target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="github"></i>
+                    </a>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I'm a data-driven analyst with experience in program analysis, business intelligence, and data visualization. My expertise lies in using Python, SQL, and various BI tools to tell the stories behind the data to drive business decisions and improve operational efficiency. </p>
+                <p>Outside of work, I enjoy playing strategic board games, hiking, practicing martial arts, researching stocks for investment, and watching sci-fi classics.</p>
+            </section>
+
+            <section id="experience">
+                <h2>Professional Experience</h2>
+                <div class="card">
+                    <h3>Program Analyst</h3>
+                    <p class="subtitle">BCD Travel | 2023 - Present</p>
+                    <ul>
+                        <li>Analyzed, formatted data using Python’s Pandas and NumPy and produced interactive dashboards for S&P 500 corporate travel accounts, delivering insights in real-time that resulted in an average 5-10% reduction in business expenditures, and a 10-15% increase in savings for clients YoY.</li>
+                        <li>Developed monthly reporting using SQL, allowing clients and business stakeholders to optimize decision- making with increased visibility of traveler activity and account performance.</li>
+                        <li>Collaborated with cross-functional teams to gather requirements and optimize reporting functionality, increasing customer experience metrics percentages</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Business Analyst</h3>
+                    <p class="subtitle">Vital Records Control | 2022 - 2023</p>
+                    <ul>
+                        <li>Reduced business expenditures using SQL, Excel, Vital4Web, and DBeaver to analyze data, delivering insights surrounding delivery and operations logistics, resulting in a 15% reduction in fuel and labor costs.</li>
+                        <li>Improved project outcomes using Jira to monitor progress and proactively allocate engineering resources, alerting stakeholders to mitigate risks to project milestones and objectives.</li>
+                        <li>Improved customer experience using Excel and Vital4Web Software to analyze feedback and business metrics to deliver actionable insights to business stakeholders.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Data Analyst, Intern</h3>
+                    <p class="subtitle">Publyon | 2021</p>
+                    <ul>
+                        <li>Produced a white paper in collaboration with two team members, using research and data visualization of foreign and domestic financial insights about China's $10M food-waste management industry.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Latest News Summarizer with Python, BeautifulSoup & Transformers</h3>
+                        <p>Developed a dynamic news summarizing app using Python to fetch and summarize the latest news from Yahoo Finance. Implemented Google's T5 AI Model for article summarization.</p>
+                        <ul>
+                            <li>Utilized OOP principles for better feature control and updates</li>
+                            <li>Outputs include news headlines, article links, and concise summaries</li>
+                            <li>Demonstrates proficiency in web scraping and NLP technologies</li>
+                        </ul>
+                        <a href="https://github.com/Kayng2901/Latest-News-Summarizer" class="project-link">View on GitHub<i data-lucide="external-link"></i></a>
+                    </div>
+                    <div class="card">
+                        <h3>Sales Insight Analysis with Python, Pandas & Matplotlib</h3>
+                        <p>Analyzed 12 months of sales data using Python, Pandas, and Matplotlib to identify key business insights.</p>
+                        <ul>
+                            <li>Identified best-performing months and products</li>
+                            <li>Analyzed city-wise sales performance</li>
+                            <li>Determined optimal times for advertising campaigns</li>
+                        </ul>
+                        <a href="https://github.com/Kayng2901/Pandas-Sales-Data-Analysis" class="project-link">View on GitHub<i data-lucide="external-link"></i></a>
+                    </div>
+                    <div class="card">
+                        <h3>Google Store App Dataset Analysis with DataBricks & PySpark</h3>
+                        <p>Analyzed 10,847 Google Store apps using PySpark and Databricks to identify top apps and trends.</p>
+                        <ul>
+                            <li>Utilized PySpark for large-scale data processing</li>
+                            <li>Identified top 10 installed apps and best-rated apps</li>
+                            <li>Performed analysis in Databricks environment</li>
+                        </ul>
+                        <a href="https://github.com/Kayng2901/PySpark-Google-Store-Project" class="project-link">View on GitHub<i data-lucide="external-link"></i></a>
+                    </div>
+                    <div class="card">
+                        <h3>ETL Sales Data Pipeline</h3>
+                        <p>Developed an ETL process using Python, SQL, and PostgreSQL to transform and load sales data.</p>
+                        <ul>
+                            <li>Extracted data from CSV sales data files</li>
+                            <li>Transformed data using Python and Pandas</li>
+                            <li>Loaded data into Neon's Cloud PostgreSQL database and verified data integrity using SQL queries</li>
+                        </ul>
+                        <a href="https://github.com/Kayng2901/ETL-Project" class="project-link">View on GitHub<i data-lucide="external-link"></i></a>
+                    </div>
+                    <!-- Add more project cards here -->
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <span class="skill">Python</span>
+                    <span class="skill">SQL</span>
+                    <span class="skill">C/C++</span>
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">GCP</span>
+                    <span class="skill">dbt</span>
+                    <span class="skill">Spark</span>
+                    <span class="skill">DataBricks</span>
+                    <span class="skill">Snowflake</span>
+                    <span class="skill">Git</span>
+                    <span class="skill">PostgreSQL</span>
+                    <span class="skill">Jupyter Notebook</span>
+                    <!-- Add more skills here -->
+                </div>
+            </section>
+
+            <section id="certificates">
+                <h2>Certificates</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3><i data-lucide="award"></i> Harvard CS50P</h3>
+                        <p>Completed Harvard's CS50's Introduction to Programming with Python</p>
+                    </div>
+                    <div class="card">
+                        <h3><i data-lucide="award"></i> dbt Fundamentals</h3>
+                        <p>Certified in dbt (data build tool) fundamentals by dbt Labs</p>
+                    </div>
+                    <div class="card">
+                        <h3><i data-lucide="award"></i> Advanced SQL</h3>
+                        <p>Completed Advanced SQL course by Great Learning</p>
+                    </div>
+                    <!-- Add more certificate cards here -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Kim Nguyen. All rights reserved.</p>
+            <nav>
+                <a href="https://github.com/Kayng2901"><i data-lucide="github"></i></a>
+                <a href="https://www.linkedin.com/in/kim-khiem-nguyen-a3368b184/"><i data-lucide="linkedin"></i></a>
+            </nav>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
